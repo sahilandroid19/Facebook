@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Facebook</string>
+
+    <string name="send">Send</string>
+    <string name="share_action">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_connected">Connected</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string-array name="options">
+        <item>Notifications</item>
+        <item>Messages</item>
+        <item>Friend Requests</item>
+        <item>Logout</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

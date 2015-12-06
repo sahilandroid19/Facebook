@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     tools:context=".FbLogin"
+    android:background="#ff9da1ff">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:src="@drawable/facebook"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:src="@drawable/imagebutton1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button1"
+        android:onClick="clickButton1"/>
+
+     <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Enter name"
+        android:layout_gravity="center_horizontal"
+         android:layout_marginTop="40dp"
+         android:background="#fffbfffd" />
+
+     <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Password"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:background="#fffdfbff" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="@string/send"
+        android:id="@+id/imagebutton"
+        android:src="@drawable/login"
+        android:onClick="clickButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+/>
+
+</LinearLayout>

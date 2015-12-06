@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:id="@+id/layout"
+    android:background="#ff9da1ff">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:src="@drawable/facebooks"
+        android:layout_marginLeft="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#fffbfffd"
+        android:hint="Enter Name"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="17dp"
+        android:layout_alignLeft="@+id/image"
+        android:layout_marginLeft="80dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="30sp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#fffbfffd"
+        android:hint="Enter Age"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="80dp"
+        android:layout_alignLeft="@+id/image"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textSize="30sp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="71dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#fffbfffd"
+        android:hint="Enter Password"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="143dp"
+        android:layout_alignLeft="@+id/image"
+        android:layout_marginLeft="80dp"
+        android:inputType="textPassword"
+   />
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="22sp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="142dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/image"
+        android:layout_marginBottom="44dp"
+        android:background="#ff6e4aff"
+        android:onClick="clickButtons"/>
+
+
+
+</RelativeLayout>

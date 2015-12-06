@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9da1ff"
+    tools:context="com.hfad.facebook.Connected">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/connected1"
+        android:id="@+id/connected"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cTextView"
+        android:layout_below="@+id/connected"
+        android:text="sahil,19"
+        android:layout_alignLeft="@+id/connected"
+        android:textSize="35sp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="85dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginLeft="135dp"
+        android:entries="@array/options"
+        android:layout_below="@+id/cTextView"
+        android:layout_marginTop="30dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag_container"/>
+
+</RelativeLayout>
